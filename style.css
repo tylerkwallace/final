@@ -2,60 +2,71 @@ header, nav, main, footer, figure, figcaption { display: block; }
 * { box-sizing: border-box; }
 
 body {
-  font-family: Verdana, Arial, sans-serif;
-  background-image: linear-gradient(lightblue, white, lightblue);
+  font-family: serif;
+  background-color: #b07c30;
 }
 
 #container {
-  background-color: #000033;
+  background-color: #ffffff;
   margin: auto;
   width: 80%;
-  box-shadow: 3px 3px 3px #333;
+  box-shadow: 3px 3px 5px 6px #333;
 }
+
+#tablecontainer{
+background-color: #ffffff;
+margin: auto;
+width: 80%;
+}
+
 
 nav {
-  color: #000000;
-  float: left;
-  width: 150px;
-  letter-spacing:0.1em;
-  font-weight: bold;
+  font-family: Helvetica;
+  background-color: white;
+  color: black;
+  word-spacing: 1em;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-style: solid;
 }
 
-nav ul { list-style-type: none;
-          margin: 10px;
-          padding: 0;}
-nav li { padding: 1px; }
+a {color: black; text-decoration: none;}
+a:visited {color: black;}
+a:hover {color:#ffffff; background-color: black}
 
-a {color: lightblue; text-decoration: none;}
-a:visited {color: lightblue;}
-a:hover {color:#ffffff;}
 
 header{
 
-  background-color: #000033; color: white;
-  background-image: url('sunset.jpg');
+  background-color: white;
   background-position: right;
   background-repeat: no-repeat;
-  height: 70px;
+  height: auto;
   padding-top: 3px;
   padding-left: 2em;
   font-size: 100%;
-  padding: 5px 20px 20px;
+  padding: 5px 5px 5px;
 }
 
-main { margin-left: 150px;
+main { margin-left: 50px;
+        margin-right: 50px;
         padding-bottom: 10px;
         background-color: #ffffff;
-        color: #000000;
+        color: #222222;
 }
 
 h1 { margin-bottom: 0;
-    font-family: "Times New Roman"}
+    font-family: Helvetica;
+    color: #222222;
+  }
 
 
 h2 {
-  color: lightblue;
-  font-family: "Times New Roman";
+  color: #222222;
+  font-family: Helvetica;
   font-size: 25px;
   text-align: left;
   padding-left: 20px;
@@ -93,8 +104,8 @@ ul {
 }
 
 p {
-  color: black;
-  font-family: Verdana;
+  color: #222222;
+  font-family: serif;
   font-size: 13px;
   text-align: left;
   padding-left: 20px;
@@ -107,10 +118,10 @@ p {
 }
 
 #footer {
-  font-size: 10px;
-  color: black;
+  font-size: 15px;
+  color: #222222;
   text-align: center;
-  font-family: Verdana;
+  font-family: Helvetica;
 }
 
 .divclass {
@@ -133,18 +144,12 @@ ol li{
 }
 
 #table td, #table th {
-  border: 2px solid lightblue;
-  padding: 5px;
+  padding: 0px;
 }
 
-#table tr:nth-child(even){background-color: #f4fafc;}
 
-#table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #ffffff;
-  color: gray;
+
+
 }
 
 hr {
