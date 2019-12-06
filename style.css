@@ -69,14 +69,14 @@ h2 {
   font-family: Helvetica;
   font-size: 25px;
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h3 {
-  color: black;
-  font-family: Verdana;
-  font-size: 16px;
+  color: #222222;
+  font-family: Helvetica;
+  font-size: 15px;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
@@ -97,7 +97,7 @@ ol {
 }
 
 ul {
-  color: black;
+  color: #222222;
   font-family: verdana;
   font-size: 13px;
   text-align: left;
@@ -108,8 +108,8 @@ p {
   font-family: serif;
   font-size: 13px;
   text-align: left;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -117,8 +117,19 @@ p {
   color: black;
 }
 
+hr{
+  align: center;
+  size: 10px;
+  width: 100%;
+  padding-bottom: 0px;
+  border-style: solid;
+  border-color: #b07c30;
+
+
+}
+
 #footer {
-  font-size: 15px;
+  font-size: 12px;
   color: #222222;
   text-align: center;
   font-family: Helvetica;
